@@ -1,5 +1,5 @@
 #include "vect.h"
-#include "macros.h"
+#include "../macros.h"
 
 int main(){
 
