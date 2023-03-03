@@ -3,7 +3,7 @@
 
 
 #include "vect.h"
-#include "macros.h"
+#include "../macros.h"
 
 
 vect_t *vect_init(uint32_t capacity, uint32_t initial_size, uint32_t type, uint32_t data_size){
