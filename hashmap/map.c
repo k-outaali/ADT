@@ -5,10 +5,7 @@
 #include "map.h"
 #include "../macros.h"
 
-typedef struct {
-        int i;
-        char c;
-} custom_t;
+
 
 static uint32_t hash_to_index(char *key, uint32_t size){
 
@@ -18,7 +15,6 @@ static uint32_t hash_to_index(char *key, uint32_t size){
          sum = sum * 31 + *cur;
          cur++;
     }
-    //printf("key=%s index=%d \n", key, sum % size);
     return sum % size;   
 }
 
