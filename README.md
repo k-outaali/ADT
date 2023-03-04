@@ -1,2 +1,2 @@
 # ADT
-abstract data types implimentation in c
+abstract data types implementation in c
